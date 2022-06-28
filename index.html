@@ -8,38 +8,29 @@
     <script src="mapp.js"></script>
     <title>Milestone Project</title>
 </head>
-<body onload='configureListeners()'>
-    <div align="center">
-        <h1 id=""></h1>
-        <div id="">
-            <h2 id=""></h2>
-            <h2 id=""></h2>
-        </div>
+<body>
+   <!-- Trigger/Open the Question box -->
+<button id="myBtn">Open Modal</button>
 
+<!-- The Question box border -->
+<div id="myModal" class="modal">
 
-        <div>
-            <img id="" src="" height="200" width="220" alt="" />
-            <img id="" src="./" height="200" width="220" alt="" />
-            <img id="" src="" height="200" width="220" alt="" />
-        </div>
-
-        <div>
-            <img id="" src="" height="200" width="220" alt="" />
-            <img id="" src="" height="200" width="220" alt="" />
-            <img id="" src="" height="200" width="220" alt="" />
-        </div>
-
-        <div>
-            <img id="" src="" height="200" width="220" alt="" />
-            <img id="" src="" height="200" width="220" alt="" />
-            <img id="" src="" height="200" width="220" alt="" />
-        </div>
-
-
-
-
-        <script src="./assets/js/paint.js"></script>
+  <!-- Question Box content  -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
     </div>
+    <div class="modal-body">
+      <p>stuff</p>
+      <p>stuff</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button">Close</button>
+        <button type="button">Incorrect</button>
+        <button type="button">Correct</button>
+    </div>
+  </div>
+</div>
 </body>
-
 </html>
