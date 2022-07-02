@@ -20,3 +20,10 @@
    // 'You\'re braver than you believe, and stronger than you seem, and smarter than you think.', //  Winnie the Pooh?
    // 'The problem is not the problem. The problem is your attitude about the problem.', //  is Jack Sparrow from Pirates of the Caribbean?
 
+   const toggleActive = a => {
+    if (a.className == 'tile active') {
+      a.className = 'tile';
+    } else {
+      a.className = 'tile active';
+    }
+  };
