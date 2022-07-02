@@ -1,3 +1,4 @@
+ //All my board questions
  // Sports
    //  'This team won the 2020 Nba Championship.', // The Milwaukee Bucks
    // 'This NBA Player and Coach has 11 NBA Titles, the most ever.', // Bill Russell
@@ -20,6 +21,9 @@
    // 'You\'re braver than you believe, and stronger than you seem, and smarter than you think.', //  Winnie the Pooh?
    // 'The problem is not the problem. The problem is your attitude about the problem.', //  is Jack Sparrow from Pirates of the Caribbean?
 
+
+   //https://www.w3schools.com/howto/howto_js_toggle_class.asp
+   //This code helps turn my tiles to active to make the box display
    const toggleActive = a => {
     if (a.className == 'tile active') {
       a.className = 'tile';

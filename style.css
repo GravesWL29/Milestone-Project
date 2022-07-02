@@ -61,3 +61,38 @@
   .board .row .tile.active .question-answer {
     display: block;
   }
+
+  .scoreboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    align-self: center;
+  }
+
+  .scoreboardName,
+  .scoreboardScore{
+    padding: 10px;
+    text-align: center;
+  }
+
+  .scoreboardName{
+    font-weight: bold;
+    border-bottom: 1px solid #000 ;
+  }
+
+  .scoreboardControls {
+    display: flex;
+    align-self: center;
+  }
+
+  .scoreboardControls-Button {
+    flex-grow: 1;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    align-self: center;
+  }
+
+  
