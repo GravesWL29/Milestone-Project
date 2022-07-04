@@ -26,8 +26,30 @@
    //This code helps turn my tiles to active to make the box display
    const toggleActive = a => {
     if (a.className == 'tile active') {
-      a.className = 'tile';
+        a.className = 'tile';
     } else {
-      a.className = 'tile active';
-    }
-  };
+        a.className = 'tile active';
+      }
+  }; 
+
+  const plus1 = document.querySelector("#plus1"),
+    minus1 = document.querySelector("#minus1"),
+    plus2 = document.querySelector("#plus2"),
+    minus2 = document.querySelector("#minus2"),
+    score1 = document.querySelector(".scoreboardScore1")
+    score2 = document.querySelector(".scoreboardScore2");
+
+let a = 0;
+plus.addEventListener("click", () => {
+    a+= 100;
+    score1.innerText = a;
+    console.log(a);
+});
+
+minus.addEventListener("click", () => {
+    a-= 100;
+    score1.innerText = a;
+    console.log(a);
+});
+
+ 

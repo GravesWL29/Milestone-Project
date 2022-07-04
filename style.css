@@ -69,10 +69,12 @@
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     align-self: center;
+    border: 1px solid black;
   }
 
   .scoreboardName,
-  .scoreboardScore{
+  .scoreboardScore1
+  .scoreboardScore2 {
     padding: 10px;
     text-align: center;
   }
@@ -84,15 +86,20 @@
 
   .scoreboardControls {
     display: flex;
-    align-self: center;
   }
 
-  .scoreboardControls-Button {
+  .scoreboard-Button {
     flex-grow: 1;
     border: none;
     cursor: pointer;
     font-size: 1em;
-    align-self: center;
   }
+  .scoreboard-Button:hover {
+    background-color: darkgrey;
+  }
+  .scoreboard-Button:active {
+    background-color: rgb(95, 95, 95);
+  }
+
 
   
