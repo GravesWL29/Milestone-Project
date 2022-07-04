@@ -1,1 +1,39 @@
 # Milestone-Project
+
+//All my board questions
+ // Sports
+   //  'This team won the 2020 Nba Championship.', // The Milwaukee Bucks
+   // 'This NBA Player and Coach has 11 NBA Titles, the most ever.', // Bill Russell
+   // 'This football team just won the SuperBowl.', //  LA Rams
+   // 'The Masters, "A Tradition Unlike Any Other," is played at this golf course.', //  Augusta National
+   // 'This perosn has 22 Grand Slam titles.' // Rafa Nadal
+ //// States
+   // 'This State is home to the Space Needle', // Washington
+   // 'This state is home to a famous strip', // Nevada
+   // 'This state is famous for the cheese and beer', // Wisconsin
+   // 'They say everything is bigger in this state', //Texas
+   // 'This state is where im goin on vacation to', // Hawaii
+   // 
+ // Quick Maths
+   // '10x9', //  90
+   // 'This shape has 8 sides.', // an Octagon?
+   // 'These are the first 5 prime numbers.', //   2, 3, 5, 7, 11
+   // '2 to the 8th power' //  256
+   //'Thinking of number between 1-10'//
+ // Disney/Pixar
+   // 'Even miracles take a little time.', // Fairy Godmother from Cinderella?
+   // 'Ohana means family. Family means no one gets left behind.', //  Lilo from Lilo and Stitch?
+   // 'You\'re braver than you believe, and stronger than you seem, and smarter than you think.', //  Winnie the Pooh?
+   // 'The problem is not the problem. The problem is your attitude about the problem.', //  is Jack Sparrow from Pirates of the Caribbean?
+// Animals
+    //'Which is the world’s largest lizard?', // Komodo Dragon
+    // 'What is the collective term for a group of geese?', // a Gaggle
+    // 'which large rodent is also known as the ‘Quill Pig’?, // Porcupine
+    // 'How many wings does a bee have?', // 4
+    // 'What colour is a giraffe’s tongue?, //Blue
+//Entertainment
+    //'Bruce in Disney’s Finding Nemo?', // Great White Shark
+    //'Sebastian in Disney’s The Little Mermaid?', // Crab
+    //'Who played the DJ in the movie “Good morning Vietnam”?', // Robin Williams
+    //'What film had this line? I’m Too Old For This SH*T.', // Leathal Weapon
+    //'What is the name of Angelina Jolie’s character in tomb raider?', //Lara Croft
