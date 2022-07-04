@@ -6,11 +6,11 @@
         a.className = 'tile';
     } else {
         a.className = 'tile active';
-        
+
       }
   }; 
 
-  
+
 
 //making scoreboard counter increment
   const plus1 = document.querySelector("#plus1"),
@@ -46,5 +46,9 @@ minus2.addEventListener("click", () => {
     console.log(b);
 });
 
+const selectedTile = document.getElementsByClassName('tile');
+    selectedTile.addEventListener('click', function onClick(event) {
+        event.target.style.backgroundColor = 'white';
+    })
 
  
