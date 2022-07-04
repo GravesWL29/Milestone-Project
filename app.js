@@ -6,8 +6,12 @@
         a.className = 'tile';
     } else {
         a.className = 'tile active';
+        
       }
   }; 
+
+  
+
 //making scoreboard counter increment
   const plus1 = document.querySelector("#plus1"),
     minus1 = document.querySelector("#minus1"),

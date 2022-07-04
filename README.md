@@ -1,4 +1,14 @@
 # Milestone-Project
+The insiration for the game came from the fact that I like trivia alot. Throughout college and after, I like to play trivia games at local bars with friends and family.
+
+Controls:
+Click on any tile to pop up the question. 
+Click it again to go back to the board. 
+Depending on if you got the question right or wrong,
+    increase or decrease your teams scroe using the plus and minus buttons beneath your teams score
+
+
+
 
 //All my board questions
  // Sports
