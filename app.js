@@ -6,11 +6,17 @@
         a.className = 'tile';
     } else {
         a.className = 'tile active';
-
       }
   }; 
+//hides tile once double clicked as to not repeat question
+  const usedTile = document.querySelectorAll(".tile");
 
-
+  usedTile.forEach(tile => {
+    tile.addEventListener("dblclick", function handleClick(event){
+       console.log('tile clicked', event);
+       tile.setAttribute('style', 'visibility:hidden');
+    });
+  });
 
 //making scoreboard counter increment
   const plus1 = document.querySelector("#plus1"),
@@ -45,10 +51,7 @@ minus2.addEventListener("click", () => {
     score2.innerText = b;
     console.log(b);
 });
+//Makes tile disaper on second click
 
-const selectedTile = document.getElementsByClassName('tile');
-    selectedTile.addEventListener('click', function onClick(event) {
-        event.target.style.backgroundColor = 'white';
-    })
 
  

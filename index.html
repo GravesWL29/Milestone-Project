@@ -12,6 +12,7 @@
     </header>
 <div>
   <div class="board">
+    <!--Creates Scoreboard-->
     <div class="scoreboard">
         <div class="scoreboardName">Team 1</div>
         <div class="scoreboardName">Team 2</div>
@@ -26,6 +27,7 @@
             <button class="scoreboard-Button" id="minus2">-</button>
         </div>
       </div>
+    <!--Creates categories row-->
     <div class="row categories">
       <div class="tile">Quick Math</div>
       <div class="tile">Animals</div>
@@ -33,8 +35,9 @@
       <div class="tile">States</div>
       <div class="tile">Movies</div>
     </div>
+    <!--Makes rows and boxes for clues-->
     <div class="row clues">
-      <div class="tile" onclick="toggleActive(this)"> 
+      <div class="tile" onclick="toggleActive(this)" ondblclick=""> 
         <div class="question-value">$100</div>
         <div class="question-answer">10x9</div>
       </div>
@@ -42,7 +45,7 @@
         <div class="question-value">$100</div>
         <div class="question-answer">What colour is a giraffe’s tongue?</div>
       </div>
-      <div class="tile" onclick="toggleActive(this)">
+      <div class="tile" onclick="toggle(this)">
         <div class="question-value">$100</div>
         <div class="question-answer">This team won the 2020 Nba Championship</div>
       </div>
