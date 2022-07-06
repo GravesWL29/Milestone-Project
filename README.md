@@ -3,7 +3,8 @@ The insiration for the game came from the fact that I like trivia alot. Througho
 
 Controls:
 Click on any tile to pop up the question. 
-Click it again to go back to the board. 
+Click it again to go back to the board.
+Double click on a tile to remove it from the board. 
 Depending on if you got the question right or wrong,
     increase or decrease your teams scroe using the plus and minus buttons beneath your teams score
 
@@ -30,11 +31,6 @@ Depending on if you got the question right or wrong,
    // 'These are the first 5 prime numbers.', //   2, 3, 5, 7, 11
    // '2 to the 8th power' //  256
    //'Thinking of number between 1-10'//
- // Disney/Pixar
-   // 'Even miracles take a little time.', // Fairy Godmother from Cinderella?
-   // 'Ohana means family. Family means no one gets left behind.', //  Lilo from Lilo and Stitch?
-   // 'You\'re braver than you believe, and stronger than you seem, and smarter than you think.', //  Winnie the Pooh?
-   // 'The problem is not the problem. The problem is your attitude about the problem.', //  is Jack Sparrow from Pirates of the Caribbean?
 // Animals
     //'Which is the world’s largest lizard?', // Komodo Dragon
     // 'What is the collective term for a group of geese?', // a Gaggle
