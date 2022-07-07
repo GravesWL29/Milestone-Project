@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <title>Milestone Project Jeopardy Board</title>
   <link rel="stylesheet" href="./style.css">
-
+  
 </head>
 <body>
+  <div class="popup">
+    <!--https://stackoverflow.com/questions/16834320/using-times-word-in-html-changes-to-%C3%97-->
+    <!--This showed me how to make x appear in corner  of popup-->
+    <button id="close">&times;</button>
+    <h2>Welcome to my Jeopardy Game.</h2>
+    <p>
+      There are 5 categories and 30 questions in total. Click on a tile to get the question. 
+      Double click a tile to remove it. Click the plus and minus buttons to adjust your score.
+      Please enjoy!
+    </p>
+  </div>
     <header>
     <h1>Welcome to Jeopardy!</h1>
     </header>
@@ -37,15 +48,15 @@
     </div>
     <!--Makes rows and boxes for clues-->
     <div class="row clues">
-      <div class="tile" onclick="toggleActive(this)" ondblclick=""> 
+      <div class="tile" onclick="toggleActive(this)"> 
         <div class="question-value">$100</div>
         <div class="question-answer">10x9</div>
       </div>
       <div class="tile" onclick="toggleActive(this)">
         <div class="question-value">$100</div>
-        <div class="question-answer">What colour is a giraffe’s tongue?</div>
+        <div class="question-answer">What color is a giraffe’s tongue?</div>
       </div>
-      <div class="tile" onclick="toggle(this)">
+      <div class="tile" onclick="toggleActive(this)">
         <div class="question-value">$100</div>
         <div class="question-answer">This team won the 2020 Nba Championship</div>
       </div>
@@ -121,7 +132,7 @@
       </div>
       <div class="tile" onclick="toggleActive(this)">
         <div class="question-value">$400</div>
-        <div class="question-answer">What film had this line? Im Too Old For This</div>
+        <div class="question-answer">What film had this line? Im Too Old For This Sh*T</div>
       </div>
     </div>
     <div class="row clues">

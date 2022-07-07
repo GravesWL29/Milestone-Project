@@ -1,15 +1,43 @@
 *, *:before, *:after {
     box-sizing: border-box;
   }
+  .popup{
+    background-color: white;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    z-index: 6;
+  }
 
+  .popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 40px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .popup p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .popup h2 {
+    text-align: center;
+  }
  
 
-  body {
-    background-image: url('./assets/jeopardylogo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    width: 300%;
+  body{
+    background-image: url('./assets/jeop_logo_large-58bacf375f9b58af5cb69e2f.jpg');
+    display:block;
   }
   
   .board {
@@ -116,7 +144,7 @@
     font-size: 1em;
   }
   .scoreboard-Button:hover {
-    background-color: darkgrey;
+    background-color:#ff0000;
   }
   .scoreboard-Button:active {
     background-color: rgb(95, 95, 95);

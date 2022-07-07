@@ -8,6 +8,10 @@
         a.className = 'tile active';
       }
   }; 
+
+
+
+
 //hides tile once double clicked as to not repeat question
   const usedTile = document.querySelectorAll(".tile");
 
@@ -17,6 +21,7 @@
        tile.setAttribute('style', 'visibility:hidden');
     });
   });
+
 
 //making scoreboard counter increment
   const plus1 = document.querySelector("#plus1"),
@@ -51,7 +56,16 @@ minus2.addEventListener("click", () => {
     score2.innerText = b;
     console.log(b);
 });
-//Makes tile disaper on second click
 
-
+//End Game function
+function gameOver() {
+  const x = document.getElementsByClassName(".scoreboardScore1");
+  if(x > 0)
+    console.log("Game Over!");
+}
+gameOver();
+//Closes popup when x is clicked
+document.querySelector("#close").addEventListener("click", function(){
+document.querySelector(".popup").style.display = "none";
+});
  
