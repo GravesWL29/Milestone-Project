@@ -14,7 +14,8 @@
     <h2>Welcome to my Jeopardy Game.</h2>
     <p>
       There are 5 categories and 30 questions in total. Click on a tile to get the question. 
-      Double click a tile to remove it. Click the plus and minus buttons to adjust your score.<br>
+      Double click a tile to remove it. Click the plus and minus buttons to adjust your score.
+      When all the tiles are gone, click the game over button.<br>
       <h2>Please enjoy!</h2>
     </p>
   </div>
@@ -32,12 +33,20 @@
         <div class="scoreboardControls">
             <button class="scoreboard-Button" id="plus1" onclick="audio.play();">+</button>
             <button class="scoreboard-Button" id="minus1" onclick="audio2.play();">-</button>
+            
         </div>
         <div class="scoreboardControls">
             <button class="scoreboard-Button" id="plus2" onclick="audio.play();">+</button>
             <button class="scoreboard-Button" id="minus2" onclick="audio2.play();">-</button>
         </div>
       </div>
+      <button class="gameOver">Game Over</button>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-button">×</span>
+            <h1>Thanks for Playing!</h1>
+        </div>
+    </div>
     <!--Creates categories row-->
     <div class="row categories">
       <div class="tile">Quick Math</div>

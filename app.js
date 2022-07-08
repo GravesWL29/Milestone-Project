@@ -64,15 +64,25 @@ minus2.addEventListener("click", () => {
     score2.innerText = b;
     console.log(b);
 });
+//https://www.w3schools.com/howto/howto_css_modals.asp
+//Game over modal button
+const modal = document.querySelector(".modal");
+const gameOver = document.querySelector(".gameOver");
+const closeButton = document.querySelector(".close-button");
 
-//End Game function
-const x = document.getElementsByClassName(".scoreboardScore1");
-function gameOver() {
-  if(x > 1000)
-    console.log("Game Over!");
+function toggleModal() {
+    modal.classList.toggle("show-modal");
 }
-gameOver();
 
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+
+gameOver.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
 
 
 
