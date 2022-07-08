@@ -43,3 +43,9 @@ Depending on if you got the question right or wrong,
     //'Who played the DJ in the movie “Good morning Vietnam”?', // Robin Williams
     //'What film had this line? I’m Too Old For This SH*T.', // Leathal Weapon
     //'What is the name of Angelina Jolie’s character in tomb raider?', //Lara Croft
+
+
+    links to where i got my assets from: 
+
+    sound clips: https://mixkit.co/free-sound-effects/game/
+    jeopardy images: https://www.liveabout.com/thmb/-1IkuMGHyqL3eNeZ04ep70HVCPo=/1920x1080/filters:fill(auto,1)/jeop_logo_large-58bacf375f9b58af5cb69e2f.jpg
