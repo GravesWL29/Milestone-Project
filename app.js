@@ -69,7 +69,7 @@ minus2.addEventListener("click", () => {
 const modal = document.querySelector(".modal");
 const gameOver = document.querySelector(".gameOver");
 const closeButton = document.querySelector(".close-button");
-
+//when you click game over button, it opens modal
 function toggleModal() {
     modal.classList.toggle("show-modal");
 }
