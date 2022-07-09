@@ -44,6 +44,11 @@ Depending on if you got the question right or wrong,
     //'What film had this line? I’m Too Old For This SH*T.', // Leathal Weapon
     //'What is the name of Angelina Jolie’s character in tomb raider?', //Lara Croft
 
+  List of some unfinished functionalities/things to work on:
+    -beter game over button(as in actually displays scores)
+    -maybe have tiles have answer that is just hidden till clicked
+
+
 
     links to where i got my assets from: 
 
